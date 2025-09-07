@@ -2,7 +2,7 @@
 A simple front-end React application that integrates with an AI API to generate smart responses.
 
 # Demo
-[Live Demon] (https://ai-chef-project.vercel.app/)
+[Live Demo] (https://ai-chef-project.vercel.app/)
 
 # Features
 - User-friendly React front end
