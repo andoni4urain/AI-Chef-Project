@@ -9,6 +9,7 @@ function IngredientsList(props){
                     <h2>Ingredients on hand:</h2>
                     <ul className="ingredients-list" aria-live="polite">{list}</ul>
 
+                {/*Allows User to get a recipe once they add 4 ingredients*/}
                 {props.current.length > 3 ? <div className="get-recipe-container">
                     <div>
                         <h3>Ready for a recipe?</h3>
@@ -16,7 +17,7 @@ function IngredientsList(props){
                     </div>
                     <button onClick={props.showRecipe}>Get a recipe</button>
                 </div> : null}
-            </section>
+        </section>
     )
 }
 

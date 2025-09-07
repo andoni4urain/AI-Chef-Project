@@ -64,6 +64,7 @@ main{
   font-weight: 300;
 }
 
+/*Ingredients List*/
 ul.ingredients-list {
     margin-bottom: 48px;
 }
@@ -106,6 +107,7 @@ ul.ingredients-list > li {
     cursor: pointer;
 }
 
+/*Displayed Recipe*/
 .suggested-recipe-container {
     color: #475467;
     line-height: 28px;
